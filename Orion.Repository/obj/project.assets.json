@@ -872,6 +872,9 @@
       "Orion.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Orion.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Orion.Business.dll": {}
         },

@@ -4,7 +4,10 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Orion.Business" t="IncludeRecursive">
         <e p="Bin" t="ExcludeRecursive" />
-        <e p="IUnitOfWork.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="ITiposUsuario.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
@@ -51,7 +54,9 @@
           </e>
         </e>
         <e p="Orion.Repository.csproj" t="IncludeRecursive" />
-        <e p="Repository" t="Include" />
+        <e p="Repository" t="Include">
+          <e p="TiposUsuarioRepository.cs" t="Include" />
+        </e>
       </e>
       <e p="Orion.sln" t="IncludeFlat" />
       <e p="Orion.Web" t="IncludeRecursive">

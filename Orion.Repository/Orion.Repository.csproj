@@ -5,10 +5,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Repository" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Orion.Business\Orion.Business.csproj" />
       <ProjectReference Include="..\Orion.Data\Orion.Data.csproj" />
     </ItemGroup>

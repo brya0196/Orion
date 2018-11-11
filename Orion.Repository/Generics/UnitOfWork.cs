@@ -22,5 +22,7 @@ namespace Orion.Repository.Generics
         {
             return _dbContext.SaveChanges();
         }
+
+        public ITiposUsuario TiposUsuarios { get; private set; }
     }
 }
