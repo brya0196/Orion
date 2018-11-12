@@ -1,17 +1,22 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace Orion.Data
 {
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<OrionDbContext>
     {
+        public IConfiguration Configuration { get; }
+        public DesignTimeDbContextFactory(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+        
         public OrionDbContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<OrionDbContext>();
 
-            var connectionString = "Host=localhost;Port=5432;Username=postgres;Password=password;Database=Orion;";
-            
-            builder.UseNpgsql(connectionString);
+            builder.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"));
 
             return new OrionDbContext(builder.Options);
         }

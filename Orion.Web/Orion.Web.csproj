@@ -1,15 +1,38 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-    <PropertyGroup>
-        <TargetFramework>netcoreapp2.1</TargetFramework>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
 
-    <ItemGroup>
-        <Folder Include="wwwroot\"/>
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore">
+      <Version>2.1.4</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <Version>2.1.4</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+      <Version>2.1.4</Version>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL">
+      <Version>2.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design">
+      <Version>1.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
 
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.App"/>
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Orion.Business\Orion.Business.csproj" />
+    <ProjectReference Include="..\Orion.Data\Orion.Data.csproj" />
+    <ProjectReference Include="..\Orion.Repository\Orion.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\angular\directives" />
+    <Folder Include="wwwroot\angular\partials" />
+    <Folder Include="wwwroot\angular\services" />
+  </ItemGroup>
 
 </Project>

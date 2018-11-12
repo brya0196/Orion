@@ -1,0 +1,14 @@
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Repository.deps.json
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Repository.dll
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Repository.pdb
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Business.dll
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Data.dll
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Business.pdb
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Data.pdb
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.csprojAssemblyReference.cache
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.csproj.CoreCompileInputs.cache
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.AssemblyInfoInputs.cache
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.AssemblyInfo.cs
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.csproj.CopyComplete
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.dll
+/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.pdb

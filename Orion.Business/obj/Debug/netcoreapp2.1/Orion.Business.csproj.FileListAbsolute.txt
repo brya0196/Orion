@@ -1,0 +1,12 @@
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/bin/Debug/netcoreapp2.1/Orion.Business.deps.json
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/bin/Debug/netcoreapp2.1/Orion.Business.dll
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/bin/Debug/netcoreapp2.1/Orion.Business.pdb
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/bin/Debug/netcoreapp2.1/Orion.Data.dll
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/bin/Debug/netcoreapp2.1/Orion.Data.pdb
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/obj/Debug/netcoreapp2.1/Orion.Business.csprojAssemblyReference.cache
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/obj/Debug/netcoreapp2.1/Orion.Business.csproj.CoreCompileInputs.cache
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/obj/Debug/netcoreapp2.1/Orion.Business.AssemblyInfoInputs.cache
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/obj/Debug/netcoreapp2.1/Orion.Business.AssemblyInfo.cs
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/obj/Debug/netcoreapp2.1/Orion.Business.csproj.CopyComplete
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/obj/Debug/netcoreapp2.1/Orion.Business.dll
+/Users/bastacio/Development/Dotnet/Orion/Orion.Business/obj/Debug/netcoreapp2.1/Orion.Business.pdb

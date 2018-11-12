@@ -1,0 +1,8 @@
+<component name="libraryTable">
+  <library name="Angularjs" type="javaScript">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Orion.Web/wwwroot/lib/angular/angular.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -5,6 +5,6 @@ namespace Orion.Business
     public interface IUnitOfWork : IDisposable
     {
         int Complete();
-        ITiposUsuario TiposUsuarios();
+        ITiposUsuario TiposUsuarios { get; }
     }
 }
