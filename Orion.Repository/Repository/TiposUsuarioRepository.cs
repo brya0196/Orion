@@ -43,7 +43,7 @@ namespace Orion.Repository.Repository
             var entry = _dbContext.Entry(tiposUsuario);
             if (entry.State == EntityState.Detached)
             {
-                _dbContext.TiposUsuarios.Add(tiposUsuario);
+                _dbContext.TiposUsuarios.Remove(tiposUsuario);
             }
             else
             {

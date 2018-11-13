@@ -27,9 +27,20 @@
             return deferred.promise;
         }
         
+        const deleteTipoUsuario = id => {
+            let deferred = $q.defer();
+            
+            $http.post(origin + "/api/TiposUsuarios/Delete", id)
+                .then(response => deferred.resolve(response.data))
+                .catch(err => deferred.reject(err));
+            
+            return deferred.promise;
+        };
+        
         return {
             getAll: getAllTiposUsuarios, 
-            add: addTipoUsuario
+            add: addTipoUsuario,
+            delete: deleteTipoUsuario
         };
     }
 })();

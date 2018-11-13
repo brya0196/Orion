@@ -13,12 +13,11 @@
         
         vm.addTipoUsuario = () => {
             TiposUsuariosRepository.add($scope.TipoUsuario)
-                .then(response => {
-                    console.log(response);
-                    //window.location.replace("/Home/TiposUsuarios");
-                })
+                .then(response => window.location.replace("/Home/TiposUsuarios"))
                 .catch(err => console.log(err));
         };
+        
+        vm.cancel = () => window.location.replace("/Home/TiposUsuarios");
         
     }
     

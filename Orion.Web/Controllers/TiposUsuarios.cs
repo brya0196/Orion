@@ -21,7 +21,7 @@ namespace Orion.Web.Controllers
             try
             {
                 var tiposUsuarios = _unitOfWork.TiposUsuarios.GetAll();
-                return Json(tiposUsuarios);
+                return Ok(Json(tiposUsuarios));
             }
             catch (Exception e)
             {
@@ -40,7 +40,7 @@ namespace Orion.Web.Controllers
             try
             {
                 var tiposUsuarios = _unitOfWork.TiposUsuarios.GetById(Id);
-                return Json(tiposUsuarios);
+                return Ok(Json(tiposUsuarios));
             }
             catch (Exception e)
             {
@@ -54,7 +54,7 @@ namespace Orion.Web.Controllers
 
         [HttpPost]
         [Route("api/TiposUsuarios/Add")]
-        public IActionResult Add(TiposUsuario tipoUsuario)
+        public IActionResult Add([FromBody]TiposUsuario tipoUsuario)
         {
             try
             {
@@ -64,8 +64,34 @@ namespace Orion.Web.Controllers
                     
                     _unitOfWork.Complete();
 
-                    return Json(tipoUsuario);
+                    return Ok(Json(tipoUsuario));
                 }
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, e);
+            }
+            finally
+            {
+                _unitOfWork.Dispose();
+            }
+        }
+
+        [HttpPost]
+        [Route("api/TiposUsuarios/Delete")]
+        public IActionResult Delete([FromBody]TiposUsuario tipoUsuario)
+        {
+            try
+            {
+                if (tipoUsuario == null) return BadRequest();
+                {
+                    _unitOfWork.TiposUsuarios.Delete(tipoUsuario);
+                    
+                    _unitOfWork.Complete();
+
+                    return Ok(Json(tipoUsuario));
+                }
+                
             }
             catch (Exception e)
             {

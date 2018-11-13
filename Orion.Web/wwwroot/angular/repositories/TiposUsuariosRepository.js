@@ -8,7 +8,8 @@
     function TiposUsuariosRepository(TiposUsuariosService) {
         return {
             getAll: () => TiposUsuariosService.getAll(),
-            add: tipoUsuario => TiposUsuariosService.add(tipoUsuario)
+            add: tipoUsuario => TiposUsuariosService.add(tipoUsuario),
+            delete: id => TiposUsuariosService.delete(id)
         }
     }
 })();
