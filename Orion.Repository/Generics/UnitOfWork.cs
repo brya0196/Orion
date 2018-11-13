@@ -1,6 +1,7 @@
 using System;
 using Orion.Business;
 using Orion.Data;
+using Orion.Repository.Repository;
 
 namespace Orion.Repository.Generics
 {
@@ -11,7 +12,11 @@ namespace Orion.Repository.Generics
         public UnitOfWork(OrionDbContext dbContext)
         {
             _dbContext = dbContext;
+            
+            TiposUsuarios = new TiposUsuarioRepository(_dbContext);
         }
+        
+        public ITiposUsuario TiposUsuarios { get; private set; }
 
         public void Dispose()
         {
@@ -22,7 +27,5 @@ namespace Orion.Repository.Generics
         {
             return _dbContext.SaveChanges();
         }
-
-        public ITiposUsuario TiposUsuarios { get; private set; }
     }
 }

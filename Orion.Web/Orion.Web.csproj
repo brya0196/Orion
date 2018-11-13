@@ -32,7 +32,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\angular\directives" />
     <Folder Include="wwwroot\angular\partials" />
-    <Folder Include="wwwroot\angular\services" />
   </ItemGroup>
 
 </Project>

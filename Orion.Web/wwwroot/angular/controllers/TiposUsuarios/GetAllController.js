@@ -3,10 +3,17 @@
     
     const app = angular.module("app.orion");
     
-    app.controller("GetAllController", ["$scope", GetAllController]);
+    app.controller("GetAllController", ["$scope", "TiposUsuariosRepository", GetAllController]);
     
-    function GetAllController($scope) {
-        $scope.sayHi = "Hi";
+    function GetAllController($scope, TiposUsuariosRepository) {
+        
+        var vm = this;
+        
+        vm.TiposUsuarios = [];
+
+        TiposUsuariosRepository.getAll()
+            .then(tiposUsuario => vm.TiposUsuarios = tiposUsuario)
+            .catch(err => console.log(err));
     }
     
 })();

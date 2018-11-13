@@ -6,11 +6,12 @@ namespace Orion.Data
 {
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<OrionDbContext>
     {
-        public IConfiguration Configuration { get; }
         public DesignTimeDbContextFactory(IConfiguration configuration)
         {
             Configuration = configuration;
         }
+        
+        public IConfiguration Configuration { get; }
         
         public OrionDbContext CreateDbContext(string[] args)
         {

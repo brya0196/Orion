@@ -1,11 +1,37 @@
 @{
     
 }
-<div ng-controller="GetAllController">
+<div ng-controller="GetAllController as vm">
     
-    <h2>{{ sayHi }}</h2>
+    <h2>Tipos de Usuarios</h2>
+    
+    <a href="/Home/AddTiposUsuarios" class="btn btn-success">
+        <i class="glyphicon glyphicon-plus"></i>
+    </a>
+    <table class="table table-responsive table-hover table-bordered">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="tipoUsuario in vm.TiposUsuarios">
+            <td>{{tipoUsuario.id}}</td>
+            <td>{{tipoUsuario.nombre}}</td>
+            <td>
+                <a href="#" class="btn btn-info">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
     
 </div>
 
 
 <script src="~/angular/controllers/TiposUsuarios/GetAllController.js"></script>
+<script src="~/angular/services/TiposUsariosServices.js"></script>
+<script src="~/angular/repositories/TiposUsuariosRepository.js"></script>

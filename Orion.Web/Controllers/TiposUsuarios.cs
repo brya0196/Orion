@@ -2,6 +2,7 @@ using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Orion.Business;
+using Orion.Data.Models;
 
 namespace Orion.Web.Controllers
 {
@@ -40,6 +41,31 @@ namespace Orion.Web.Controllers
             {
                 var tiposUsuarios = _unitOfWork.TiposUsuarios.GetById(Id);
                 return Json(tiposUsuarios);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, e);
+            }
+            finally
+            {
+                _unitOfWork.Dispose();
+            }
+        }
+
+        [HttpPost]
+        [Route("api/TiposUsuarios/Add")]
+        public IActionResult Add(TiposUsuario tipoUsuario)
+        {
+            try
+            {
+                if (tipoUsuario == null) return BadRequest();
+                {
+                    _unitOfWork.TiposUsuarios.Add(tipoUsuario);
+                    
+                    _unitOfWork.Complete();
+
+                    return Json(tipoUsuario);
+                }
             }
             catch (Exception e)
             {
