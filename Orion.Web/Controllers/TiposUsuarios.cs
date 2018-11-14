@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Orion.Business;
@@ -79,19 +80,40 @@ namespace Orion.Web.Controllers
 
         [HttpPost]
         [Route("api/TiposUsuarios/Delete")]
-        public IActionResult Delete([FromBody]TiposUsuario tipoUsuario)
+        public IActionResult Delete([FromBody]int id)
+        {
+            try
+            {
+                _unitOfWork.TiposUsuarios.Delete(id);
+
+                _unitOfWork.Complete();
+
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, e);
+            }
+            finally
+            {
+                _unitOfWork.Dispose();
+            }
+        }
+        
+        [HttpPost]
+        [Route("api/TiposUsuarios/Update")]
+        public IActionResult Update([FromBody]TiposUsuario tipoUsuario)
         {
             try
             {
                 if (tipoUsuario == null) return BadRequest();
                 {
-                    _unitOfWork.TiposUsuarios.Delete(tipoUsuario);
+                    _unitOfWork.TiposUsuarios.Update(tipoUsuario);
                     
                     _unitOfWork.Complete();
 
                     return Ok(Json(tipoUsuario));
                 }
-                
             }
             catch (Exception e)
             {

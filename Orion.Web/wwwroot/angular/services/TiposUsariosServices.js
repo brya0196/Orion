@@ -16,6 +16,16 @@
             
             return deferred.promise;
         };
+
+        const getByIdTipoUsuario = tipoUsuario => {
+            let deferred = $q.defer();
+
+            $http.get(origin + "/api/TiposUsuarios/GetById/" + id)
+                .then(response => deferred.resolve(response.data))
+                .catch(err => deferred.reject(err));
+
+            return deferred.promise;
+        }
         
         const addTipoUsuario = tipoUsuario => {
             let deferred = $q.defer();
@@ -27,20 +37,32 @@
             return deferred.promise;
         }
         
-        const deleteTipoUsuario = id => {
+        const deleteTipoUsuario = tipoUsuario => {
             let deferred = $q.defer();
             
-            $http.post(origin + "/api/TiposUsuarios/Delete", id)
+            $http.post(origin + "/api/TiposUsuarios/Delete", tipoUsuario)
                 .then(response => deferred.resolve(response.data))
                 .catch(err => deferred.reject(err));
             
             return deferred.promise;
         };
+
+        const updateTipoUsuario = tipoUsuario => {
+            let deferred = $q.defer();
+
+            $http.post(origin + "/api/TiposUsuarios/Update", tipoUsuario)
+                .then(response => deferred.resolve(response.data))
+                .catch(err => deferred.reject(err));
+
+            return deferred.promise;
+        }
         
         return {
             getAll: getAllTiposUsuarios, 
+            getById: getByIdTipoUsuario,
             add: addTipoUsuario,
-            delete: deleteTipoUsuario
+            delete: deleteTipoUsuario,
+            update: updateTipoUsuario
         };
     }
 })();

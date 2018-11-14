@@ -38,12 +38,13 @@ namespace Orion.Repository.Repository
             _dbContext.SaveChanges();
         }
 
-        public void Delete(TiposUsuario tiposUsuario)
+        public void Delete(int id)
         {
-            var entry = _dbContext.Entry(tiposUsuario);
+            var entry = _dbContext.Entry(id);
             if (entry.State == EntityState.Detached)
             {
-                _dbContext.TiposUsuarios.Remove(tiposUsuario);
+                var tipoUsuario = _dbContext.TiposUsuarios.Find(id);
+                _dbContext.TiposUsuarios.Remove(tipoUsuario);
             }
             else
             {
