@@ -89,6 +89,7 @@
           <e p="Home" t="Include">
             <e p="AddTiposUsuarios.cshtml" t="Include" />
             <e p="TiposUsuarios.cshtml" t="Include" />
+            <e p="UpdateTiposUsuarios.cshtml" t="Include" />
           </e>
           <e p="shared" t="Include">
             <e p="_CookieConsentPartial.cshtml" t="Include" />
@@ -104,6 +105,7 @@
               <e p="TiposUsuarios" t="Include">
                 <e p="AddTiposUsuariosController.js" t="Include" />
                 <e p="GetAllController.js" t="Include" />
+                <e p="UpdateTiposUsuarioController.js" t="Include" />
               </e>
             </e>
             <e p="directives" t="Include" />
@@ -112,6 +114,7 @@
               <e p="TiposUsuariosRepository.js" t="Include" />
             </e>
             <e p="services" t="Include">
+              <e p="StoreService.js" t="Include" />
               <e p="TiposUsariosServices.js" t="Include" />
             </e>
           </e>

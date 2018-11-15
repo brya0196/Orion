@@ -80,15 +80,18 @@ namespace Orion.Web.Controllers
 
         [HttpPost]
         [Route("api/TiposUsuarios/Delete")]
-        public IActionResult Delete([FromBody]int id)
+        public IActionResult Delete([FromBody]TiposUsuario tipoUsuario)
         {
             try
             {
-                _unitOfWork.TiposUsuarios.Delete(id);
+                if (tipoUsuario == null) return BadRequest();
+                {
+                    _unitOfWork.TiposUsuarios.Delete(tipoUsuario);
+                    
+                    _unitOfWork.Complete();
 
-                _unitOfWork.Complete();
-
-                return Ok();
+                    return Ok(Json(tipoUsuario));
+                }
             }
             catch (Exception e)
             {

@@ -1,0 +1,25 @@
+@{
+
+}
+
+<div ng-controller="UpdateTiposUsuariosController as vm">
+    <h2>Tipos de Usuarios</h2>
+    <form name="FormTiposUsuarios">
+        <div class="row">
+            <div class="form-group col-sm-4">
+                <label>Nombre</label>
+                <input type="text" class="form-control" ng-model="TipoUsuario.nombre" name="nombre" required />
+            </div>
+        </div>
+
+        <div class="row">
+            <a href="#" class="btn btn-danger" ng-click="vm.cancel()">Cancelar</a>
+            <button class="btn btn-success" ng-disabled="FormTiposUsuarios.$invalid" ng-click="vm.updateTipoUsuario()">Update</button>
+        </div>
+    </form>
+</div>
+
+<script src="~/angular/controllers/TiposUsuarios/UpdateTiposUsuarioController.js"></script>
+<script src="~/angular/services/TiposUsariosServices.js"></script>
+<script src="~/angular/services/StoreService.js"></script>
+<script src="~/angular/repositories/TiposUsuariosRepository.js"></script>

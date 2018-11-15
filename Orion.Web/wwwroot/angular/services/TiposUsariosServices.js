@@ -17,7 +17,7 @@
             return deferred.promise;
         };
 
-        const getByIdTipoUsuario = tipoUsuario => {
+        const getByIdTipoUsuario = id => {
             let deferred = $q.defer();
 
             $http.get(origin + "/api/TiposUsuarios/GetById/" + id)
@@ -37,10 +37,10 @@
             return deferred.promise;
         }
         
-        const deleteTipoUsuario = tipoUsuario => {
+        const deleteTipoUsuario = id => {
             let deferred = $q.defer();
             
-            $http.post(origin + "/api/TiposUsuarios/Delete", tipoUsuario)
+            $http.post(origin + "/api/TiposUsuarios/Delete", id)
                 .then(response => deferred.resolve(response.data))
                 .catch(err => deferred.reject(err));
             

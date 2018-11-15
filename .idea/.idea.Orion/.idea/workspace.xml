@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="416f874c-c744-46a9-9f61-6b018610bcb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Orion.Web/Views/Home/UpdateTiposUsuarios.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/UpdateTiposUsuarios.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/UpdateTiposUsuarioController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/StoreService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Orion/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orion/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orion.Repository/Repository/TiposUsuarioRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Repository/Repository/TiposUsuarioRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Repository/bin/Debug/netcoreapp2.1/Orion.Repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Repository/obj/Debug/netcoreapp2.1/Orion.Repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orion.Web/Controllers/TiposUsuarios.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/Controllers/TiposUsuarios.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orion.Web/Views/Home/TiposUsuarios.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/Views/Home/TiposUsuarios.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/bin/Debug/netcoreapp2.1/Orion.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/AddTiposUsuarios.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/AddTiposUsuarios.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/TiposUsuarios.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/TiposUsuarios.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetAllController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetAllController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/repositories/TiposUsuariosRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/repositories/TiposUsuariosRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/TiposUsariosServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/TiposUsariosServices.js" afterDir="false" />
@@ -30,125 +59,59 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="aspx" value="1" />
-          <entry key="cs" value="50" />
-          <entry key="cshtml" value="13" />
+          <entry key="cs" value="58" />
+          <entry key="cshtml" value="16" />
           <entry key="html" value="1" />
-          <entry key="js" value="21" />
+          <entry key="js" value="31" />
           <entry key="json" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Asp" value="1" />
-          <entry key="C#" value="50" />
+          <entry key="C#" value="58" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="21" />
-          <entry key="Razor" value="13" />
+          <entry key="JavaScript" value="31" />
+          <entry key="Razor" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3185" />
-          <entry key="cshtml" value="1059" />
+          <entry key="cs" value="3331" />
+          <entry key="cshtml" value="1213" />
           <entry key="html" value="182" />
-          <entry key="js" value="2799" />
+          <entry key="js" value="4818" />
           <entry key="json" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3185" />
+          <entry key="C#" value="3331" />
           <entry key="HTML" value="182" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="2799" />
-          <entry key="Razor" value="1059" />
+          <entry key="JavaScript" value="4818" />
+          <entry key="Razor" value="1213" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Orion.Web/Views/Home/TiposUsuarios.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
-              <folding>
-                <marker date="1542147041954" expanded="true" signature="0:9" ph="@..." />
-                <marker date="1542147041954" expanded="true" signature="10:981" ph="&lt;div.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="100:215" ph="&lt;a.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="220:969" ph="&lt;table.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="294:426" ph="&lt;thead.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="310:409" ph="&lt;tr.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="435:956" ph="&lt;tbody.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="451:939" ph="&lt;tr.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="596:925" ph="&lt;td.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="617:732" ph="&lt;a.../&gt;" />
-                <marker date="1542147041954" expanded="true" signature="749:907" ph="&lt;a.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Orion.Web/Controllers/TiposUsuarios.cs">
+        <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/UpdateTiposUsuarioController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
-              <folding>
-                <marker date="1542215151116" expanded="false" signature="6:125" ph="..." />
-                <marker date="1542215151116" expanded="true" signature="158:3428" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="204:3426" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="313:371" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="472:883" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="498:646" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="678:786" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="806:873" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="1009:1423" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="1035:1186" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="1218:1326" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="1346:1413" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="1553:2122" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="1579:1885" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="1917:2025" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="2045:2112" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="2240:2704" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="2266:2467" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="2499:2607" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="2627:2694" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="2848:3420" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="2874:3183" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="3215:3323" ph="{...}" />
-                <marker date="1542215151116" expanded="true" signature="3343:3410" ph="{...}" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetAllController.js">
+        <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/StoreService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/TiposUsariosServices.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/repositories/TiposUsuariosRepository.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            <state relative-caret-position="420">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -182,6 +145,7 @@
     <setting file="file://$PROJECT_DIR$/Orion.Data/DesignTimeDbContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orion.Web/Views/Home/TiposUsuarios.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Polaris/Polaris.Repository/Genericos/UnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Orion.Web/Views/Home/UpdateTiposUsuarios.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orion.Data/OrionDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orion.Web/Views/Home/AddTiposUsuarios.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orion.Business/Interfaces/ITiposUsuario.cs" root0="FORCE_HIGHLIGHTING" />
@@ -201,7 +165,6 @@
         <option value="$PROJECT_DIR$/Orion.Data/OrionDbContext.cs" />
         <option value="$PROJECT_DIR$/Orion.Repository/Generics/unitOfWork.cs" />
         <option value="$PROJECT_DIR$/Orion.Business/IUnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/Orion.Business/Interfaces/ITiposUsuario.cs" />
         <option value="$PROJECT_DIR$/Orion.Business/Interfaces/IUnitOfWork.cs" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/lib/angular/angular.min.js" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetTiposUsuariosController.cs" />
@@ -212,19 +175,23 @@
         <option value="$PROJECT_DIR$/Orion.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/Orion.Data/DesignTimeDbContextFactory.cs" />
         <option value="$PROJECT_DIR$/Orion.Repository/Generics/UnitOfWork.cs" />
-        <option value="$PROJECT_DIR$/Orion.Web/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Orion.Web/Views/Home/AddTiposUsuarios.aspx" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/directives/TiposUsuariosDirectives.js" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarioController.js" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/partials/TiposUsuariosPartial.html" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/AddTiposUsuariosController.js" />
         <option value="$PROJECT_DIR$/Orion.Web/Views/Home/AddTiposUsuarios.cshtml" />
-        <option value="$PROJECT_DIR$/Orion.Web/Views/Home/TiposUsuarios.cshtml" />
-        <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetAllController.js" />
-        <option value="$PROJECT_DIR$/Orion.Repository/Repository/TiposUsuarioRepository.cs" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/repositories/TiposUsuariosRepository.js" />
+        <option value="$PROJECT_DIR$/Orion.Business/Interfaces/ITiposUsuario.cs" />
+        <option value="$PROJECT_DIR$/Orion.Repository/Repository/TiposUsuarioRepository.cs" />
+        <option value="$PROJECT_DIR$/Orion.Web/Views/Home/TiposUsuarios.cshtml" />
+        <option value="$PROJECT_DIR$/Orion.Web/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetAllController.js" />
+        <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/StoreService.js" />
         <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/TiposUsariosServices.js" />
         <option value="$PROJECT_DIR$/Orion.Web/Controllers/TiposUsuarios.cs" />
+        <option value="$PROJECT_DIR$/Orion.Web/Views/Home/UpdateTiposUsuarios.cshtml" />
+        <option value="$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/UpdateTiposUsuarioController.js" />
       </list>
     </option>
   </component>
@@ -258,17 +225,6 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Orion" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Orion" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Orion.Repository" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Orion" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Orion.Repository" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -323,14 +279,6 @@
               <item name="angular" type="24d0babc:SolutionExplorerModelNode" />
               <item name="controllers" type="24d0babc:SolutionExplorerModelNode" />
               <item name="TiposUsuarios" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Orion" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Orion.Web" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="angular" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="repositories" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -406,12 +354,12 @@
       <workItem from="1541857832931" duration="76000" />
       <workItem from="1541973250381" duration="173000" />
       <workItem from="1541973495095" duration="462000" />
-      <workItem from="1541974265211" duration="19870000" />
+      <workItem from="1541974265211" duration="28620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22723000" />
+    <option name="totallyTimeSpent" value="31473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,9 +372,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32876712" />
@@ -443,7 +390,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50080776" side_tool="true" weight="0.30547947" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -523,18 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Orion.Business/Interfaces/ITiposUsuario.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <marker date="1541976740632" expanded="true" signature="6:58" ph="..." />
-            <marker date="1541976740632" expanded="true" signature="84:358" ph="{...}" />
-            <marker date="1541976740632" expanded="true" signature="121:356" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Business/Interfaces/IUnitOfWork.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -585,17 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Orion.Data/Models/TiposUsuario.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <marker date="1541298790052" expanded="true" signature="27:152" ph="{...}" />
-            <marker date="1541298790052" expanded="true" signature="59:150" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Web/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -630,20 +554,6 @@
             <marker date="1541978245295" expanded="true" signature="1767:1844" ph="{...}" />
             <marker date="1541978245295" expanded="true" signature="1861:1976" ph="{...}" />
             <marker date="1541978245295" expanded="true" signature="2119:2290" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Orion.Data/OrionDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <marker date="1541299580831" expanded="false" signature="6:61" ph="..." />
-            <marker date="1541299580831" expanded="true" signature="83:909" ph="{...}" />
-            <marker date="1541299580831" expanded="true" signature="129:907" ph="{...}" />
-            <marker date="1541299580831" expanded="true" signature="231:264" ph="{...}" />
-            <marker date="1541299580831" expanded="true" signature="578:901" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -689,22 +599,6 @@
     <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/partials/TiposUsuariosPartial.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Orion.Web/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <marker date="1541985549513" expanded="false" signature="6:178" ph="..." />
-            <marker date="1541985549513" expanded="true" signature="211:832" ph="{...}" />
-            <marker date="1541985549513" expanded="true" signature="258:830" ph="{...}" />
-            <marker date="1541985549513" expanded="true" signature="301:363" ph="{...}" />
-            <marker date="1541985549513" expanded="true" signature="409:456" ph="{...}" />
-            <marker date="1541985549513" expanded="true" signature="513:560" ph="{...}" />
-            <marker date="1541985549513" expanded="true" signature="691:824" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Repository/Generics/UnitOfWork.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -720,17 +614,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Business/Interfaces/ITiposUsuario.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <marker date="1542216378374" expanded="false" signature="6:58" ph="..." />
+            <marker date="1542216378374" expanded="true" signature="84:358" ph="{...}" />
+            <marker date="1542216378374" expanded="true" signature="121:356" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/AddTiposUsuariosController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Web/Views/Home/AddTiposUsuarios.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="73" />
           <folding>
             <marker date="1542145268036" expanded="true" signature="0:591" ph="&lt;form.../&gt;" />
             <marker date="1542145268036" expanded="true" signature="117:344" ph="&lt;div.../&gt;" />
@@ -742,97 +648,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Web/Views/Home/TiposUsuarios.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="73" />
           <folding>
-            <marker date="1542147041954" expanded="true" signature="0:9" ph="@..." />
-            <marker date="1542147041954" expanded="true" signature="10:981" ph="&lt;div.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="100:215" ph="&lt;a.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="220:969" ph="&lt;table.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="294:426" ph="&lt;thead.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="310:409" ph="&lt;tr.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="435:956" ph="&lt;tbody.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="451:939" ph="&lt;tr.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="596:925" ph="&lt;td.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="617:732" ph="&lt;a.../&gt;" />
-            <marker date="1542147041954" expanded="true" signature="749:907" ph="&lt;a.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="0:9" ph="@..." />
+            <marker date="1542229346048" expanded="true" signature="10:1018" ph="&lt;div.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="100:215" ph="&lt;a.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="220:1006" ph="&lt;table.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="294:426" ph="&lt;thead.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="310:409" ph="&lt;tr.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="435:993" ph="&lt;tbody.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="451:976" ph="&lt;tr.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="596:962" ph="&lt;td.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="617:769" ph="&lt;a.../&gt;" />
+            <marker date="1542229346048" expanded="true" signature="786:944" ph="&lt;a.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Repository/Repository/TiposUsuarioRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding>
-            <marker date="1542214389621" expanded="false" signature="6:154" ph="..." />
-            <marker date="1542214389621" expanded="true" signature="193:1786" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="251:1784" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="382:438" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="498:809" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="617:705" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="722:799" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="864:1082" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="1137:1534" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="1256:1428" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="1445:1524" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="1585:1659" ph="{...}" />
-            <marker date="1542214389621" expanded="true" signature="1704:1778" ph="{...}" />
+            <marker date="1542216400880" expanded="false" signature="6:154" ph="..." />
+            <marker date="1542216400880" expanded="true" signature="193:1786" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="251:1784" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="382:438" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="498:809" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="617:705" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="722:799" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="864:1082" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="1137:1534" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="1256:1428" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="1445:1524" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="1585:1659" ph="{...}" />
+            <marker date="1542216400880" expanded="true" signature="1704:1778" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetAllController.js">
+    <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/TiposUsariosServices.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Data/OrionDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <marker date="1541299580831" expanded="false" signature="6:61" ph="..." />
+            <marker date="1541299580831" expanded="true" signature="83:909" ph="{...}" />
+            <marker date="1541299580831" expanded="true" signature="129:907" ph="{...}" />
+            <marker date="1541299580831" expanded="true" signature="231:264" ph="{...}" />
+            <marker date="1541299580831" expanded="true" signature="578:901" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Data/Models/TiposUsuario.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <marker date="1541298790052" expanded="true" signature="27:152" ph="{...}" />
+            <marker date="1541298790052" expanded="true" signature="59:150" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/repositories/TiposUsuariosRepository.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/TiposUsariosServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Orion.Web/Controllers/TiposUsuarios.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+          <caret line="107" column="45" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="45" />
           <folding>
-            <marker date="1542215151116" expanded="false" signature="6:125" ph="..." />
-            <marker date="1542215151116" expanded="true" signature="158:3428" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="204:3426" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="313:371" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="472:883" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="498:646" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="678:786" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="806:873" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="1009:1423" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="1035:1186" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="1218:1326" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="1346:1413" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="1553:2122" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="1579:1885" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="1917:2025" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="2045:2112" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="2240:2704" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="2266:2467" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="2499:2607" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="2627:2694" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="2848:3420" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="2874:3183" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="3215:3323" ph="{...}" />
-            <marker date="1542215151116" expanded="true" signature="3343:3410" ph="{...}" />
+            <marker date="1542294187913" expanded="false" signature="6:159" ph="..." />
+            <marker date="1542294187913" expanded="true" signature="192:3588" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="238:3586" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="347:405" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="506:917" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="532:680" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="712:820" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="840:907" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="1043:1457" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="1069:1220" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="1252:1360" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="1380:1447" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="1587:2156" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="1613:1919" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="1951:2059" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="2079:2146" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="2292:2864" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="2318:2627" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="2659:2767" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="2787:2854" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="3008:3580" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="3034:3343" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="3375:3483" ph="{...}" />
+            <marker date="1542294187913" expanded="true" signature="3503:3570" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Web/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <marker date="1542229470823" expanded="false" signature="6:178" ph="..." />
+            <marker date="1542229470823" expanded="true" signature="211:939" ph="{...}" />
+            <marker date="1542229470823" expanded="true" signature="258:937" ph="{...}" />
+            <marker date="1542229470823" expanded="true" signature="301:363" ph="{...}" />
+            <marker date="1542229470823" expanded="true" signature="409:456" ph="{...}" />
+            <marker date="1542229470823" expanded="true" signature="513:560" ph="{...}" />
+            <marker date="1542229470823" expanded="true" signature="620:667" ph="{...}" />
+            <marker date="1542229470823" expanded="true" signature="798:931" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/GetAllController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Web/Views/Home/UpdateTiposUsuarios.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="115" selection-start-line="16" selection-start-column="115" selection-end-line="16" selection-end-column="115" />
+          <folding>
+            <marker date="1542294630891" expanded="true" signature="0:5" ph="@..." />
+            <marker date="1542294630891" expanded="true" signature="7:666" ph="&lt;div.../&gt;" />
+            <marker date="1542294630891" expanded="true" signature="100:659" ph="&lt;form.../&gt;" />
+            <marker date="1542294630891" expanded="true" signature="140:387" ph="&lt;div.../&gt;" />
+            <marker date="1542294630891" expanded="true" signature="170:372" ph="&lt;div.../&gt;" />
+            <marker date="1542294630891" expanded="true" signature="397:647" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/services/StoreService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orion.Web/wwwroot/angular/controllers/TiposUsuarios/UpdateTiposUsuarioController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -34,3 +34,4 @@
 /Users/bastacio/Development/Dotnet/Orion/Orion.Web/obj/Debug/netcoreapp2.1/Orion.Web.pdb
 /Users/bastacio/Development/Dotnet/Orion/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/TiposUsuarios.g.cshtml.cs
 /Users/bastacio/Development/Dotnet/Orion/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/AddTiposUsuarios.g.cshtml.cs
+/Users/bastacio/Development/Dotnet/Orion/Orion.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/UpdateTiposUsuarios.g.cshtml.cs

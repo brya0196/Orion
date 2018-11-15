@@ -10,7 +10,7 @@
             getAll: () => TiposUsuariosService.getAll(),
             getById: id => TiposUsuariosService.getById(id),
             add: tipoUsuario => TiposUsuariosService.add(tipoUsuario),
-            delete: tipoUsuario => TiposUsuariosService.delete(tipoUsuario),
+            delete: id => TiposUsuariosService.delete(id),
             update: tipoUsuario => TiposUsuariosService.update(tipoUsuario)
         }
     }

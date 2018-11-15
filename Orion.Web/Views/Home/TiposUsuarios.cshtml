@@ -21,7 +21,7 @@
             <td>{{tipoUsuario.id}}</td>
             <td>{{tipoUsuario.nombre}}</td>
             <td>
-                <a href="#" class="btn btn-info">
+                <a href="#" class="btn btn-info" ng-click="vm.update(tipoUsuario.id)">
                     <i class="glyphicon glyphicon-edit"></i>
                 </a>
                 <a href="#" class="btn btn-danger" ng-click="vm.delete(tipoUsuario)">
@@ -37,4 +37,5 @@
 
 <script src="~/angular/controllers/TiposUsuarios/GetAllController.js"></script>
 <script src="~/angular/services/TiposUsariosServices.js"></script>
+<script src="~/angular/services/StoreService.js"></script>
 <script src="~/angular/repositories/TiposUsuariosRepository.js"></script>

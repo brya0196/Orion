@@ -3,26 +3,35 @@
     
     const app = angular.module("app.orion");
     
-    app.controller("GetAllController", ["$scope", "TiposUsuariosRepository", GetAllController]);
+    app.controller("GetAllController", ["$scope", "StoreService", "TiposUsuariosRepository", GetAllController]);
     
-    function GetAllController($scope, TiposUsuariosRepository) {
+    function GetAllController($scope, StoreService, TiposUsuariosRepository) {
         
         var vm = this;
         
         vm.TiposUsuarios = [];
-
-        TiposUsuariosRepository.getAll()
-            .then(tiposUsuario => vm.TiposUsuarios = tiposUsuario)
-            .catch(err => console.log(err));
+        populateGrid();
         
-        vm.delete = tipoUsuario => {
-            console.log(tipoUsuario);
-            // TiposUsuariosRepository.delete(id)
-            //     .then(response => {
-            //        
-            //     })
-            //     .catch(err => console.log(err));
+        vm.delete = id => {
+            TiposUsuariosRepository.delete(id)
+                .then(response => {
+                    alert("Eliminado");
+                    vm.TiposUsuarios = [];
+                    populateGrid();
+                })
+                .catch(err => console.log(err));
         };
+        
+        vm.update = id => {
+            StoreService.Set("updateTipoUsuario", id);
+            window.location.href = "/Home/UpdateTiposUsuarios";
+        };
+        
+        function populateGrid() {
+            TiposUsuariosRepository.getAll()
+                .then(tiposUsuario => vm.TiposUsuarios = tiposUsuario.value)
+                .catch(err => console.log(err));
+        }
     }
     
 })();
