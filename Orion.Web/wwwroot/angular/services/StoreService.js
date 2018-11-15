@@ -7,31 +7,31 @@
     
     function StoreService() {
         
-        if(JSON.parse(localStorage.getItem("Data")).length > 0) 
-            localStorage.setItem("Data", JSON.stringify({}));
+        if(JSON.parse(localStorage.getItem("Store")) == null) 
+            localStorage.setItem("Store", JSON.stringify({}));
         
         const Set = (key, value) => {
-            let store = localStorage.getItem("Data");
+            let store = localStorage.getItem("Store");
             store = JSON.parse(store);
             store[key] = value
-            localStorage.setItem("Data", JSON.stringify(store));
+            localStorage.setItem("Store", JSON.stringify(store));
         };
         
         const Remove = (key) => {
-            let store = localStorage.getItem("Data");
+            let store = localStorage.getItem("Store");
             store = JSON.parse(store);
             delete store[key]
-            localStorage.setItem("Data", JSON.stringify(store));
+            localStorage.setItem("Store", JSON.stringify(store));
         };
         
         const Find = key => {
-            let store = localStorage.getItem("Data");
+            let store = localStorage.getItem("Store");
             store = JSON.parse(store);
             return store[key];
         };
         
         const GetAll = () => {
-            let store = localStorage.getItem("Data");
+            let store = localStorage.getItem("Store");
             return JSON.parse(store);
         };
         
