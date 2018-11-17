@@ -23,8 +23,13 @@
         };
 
         vm.update = id => {
-            StoreService.Set("updateTipoUsuario", id);
-            window.location.href = "/Home/UpdateTiposUsuarios";
+            StoreService.Set("updateUsuario", id);
+            window.location.href = "/Home/UpdateUsuarios";
+        };
+
+        vm.password = id => {
+            StoreService.Set("updateUsuarioPassword", id);
+            window.location.href = "/Home/UpdateUsuariosPassword";
         };
 
         function populateGrid() {

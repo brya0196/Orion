@@ -39,6 +39,16 @@ namespace Orion.Web.Controllers
         {
             return View();
         }
+        
+        public IActionResult UpdateUsuarios()
+        {
+            return View();
+        }
+        
+        public IActionResult UpdateUsuariosPassword()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

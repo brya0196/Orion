@@ -113,6 +113,7 @@
             <e p="TiposUsuarios.cshtml" t="Include" />
             <e p="UpdateTiposUsuarios.cshtml" t="Include" />
             <e p="UpdateUsuarios.cshtml" t="Include" />
+            <e p="UpdateUsuariosPassword.cshtml" t="Include" />
             <e p="Usuarios.cshtml" t="Include" />
           </e>
           <e p="shared" t="Include">
@@ -134,6 +135,8 @@
               <e p="Usuarios" t="Include">
                 <e p="AddUsuariosController.js" t="Include" />
                 <e p="GetAllController.js" t="Include" />
+                <e p="UpdateUsuarioPasswordController.js" t="Include" />
+                <e p="UpdateUsuariosController.js" t="Include" />
               </e>
             </e>
             <e p="directives" t="Include" />

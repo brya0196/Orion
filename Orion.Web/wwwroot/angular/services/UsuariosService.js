@@ -20,7 +20,7 @@
         const getByIdUsuarios = id => {
             let deferred = $q.defer();
 
-            $http.get(origin + "/api/Usuarios/GetById/" + id)
+            $http.post(origin + "/api/Usuarios/GetById/" + id)
                 .then(response => deferred.resolve(response.data))
                 .catch(err => deferred.reject(err));
 

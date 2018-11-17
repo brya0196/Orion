@@ -15,7 +15,7 @@
         TiposUsuariosRepository.getAll()
             .then(tiposUsuarios => vm.tiposUsuarios = tiposUsuarios.value)
             .catch(err => console.log(err));
-        
+
 
         vm.addUsuario = () => {
             UsuariosRepository.add($scope.Usuario)

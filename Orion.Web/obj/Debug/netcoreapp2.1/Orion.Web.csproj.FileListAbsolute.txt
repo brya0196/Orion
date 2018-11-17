@@ -74,3 +74,5 @@ E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Orion.Web.dll
 E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Orion.Web.pdb
 E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Usuarios.g.cshtml.cs
 E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\AddUsuarios.g.cshtml.cs
+E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\UpdateUsuarios.g.cshtml.cs
+E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\UpdateUsuariosPassword.g.cshtml.cs
