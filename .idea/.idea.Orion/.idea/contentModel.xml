@@ -7,6 +7,7 @@
       <e p="Orion.Business" t="IncludeRecursive">
         <e p="Bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
+          <e p="IProductos.cs" t="Include" />
           <e p="ITiposUsuario.cs" t="Include" />
           <e p="IUnitOfWork.cs" t="Include" />
           <e p="IUsuarios.cs" t="Include" />
@@ -74,6 +75,7 @@
         </e>
         <e p="Orion.Repository.csproj" t="IncludeRecursive" />
         <e p="Repository" t="Include">
+          <e p="ProductosRepository.cs" t="Include" />
           <e p="TiposUsuarioRepository.cs" t="Include" />
           <e p="UsuariosRepository.cs" t="Include" />
         </e>
