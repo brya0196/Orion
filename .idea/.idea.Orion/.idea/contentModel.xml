@@ -7,7 +7,7 @@
         <e p="Interfaces" t="Include">
           <e p="ITiposUsuario.cs" t="Include" />
           <e p="IUnitOfWork.cs" t="Include" />
-          <e p="IUsuario.cs" t="Include" />
+          <e p="IUsuarios.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -57,7 +57,7 @@
         <e p="Orion.Repository.csproj" t="IncludeRecursive" />
         <e p="Repository" t="Include">
           <e p="TiposUsuarioRepository.cs" t="Include" />
-          <e p="UsuarioRepository.cs" t="Include" />
+          <e p="UsuariosRepository.cs" t="Include" />
         </e>
       </e>
       <e p="Orion.sln" t="IncludeFlat" />
@@ -67,7 +67,8 @@
         <e p="Bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
-          <e p="TiposUsuarios.cs" t="Include" />
+          <e p="TiposUsuariosController.cs" t="Include" />
+          <e p="UsuariosController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />

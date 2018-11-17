@@ -7,10 +7,10 @@ using Orion.Data.Models;
 
 namespace Orion.Web.Controllers
 {
-    public class TiposUsuarios : Controller
+    public class TiposUsuariosController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public TiposUsuarios(IUnitOfWork unitOfWork)
+        public TiposUsuariosController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
