@@ -21,7 +21,7 @@
         <tr ng-repeat="usuario in vm.Usuarios">
             <td>{{usuario.id}}</td>
             <td>{{usuario.nombre}} {{usuario.apellido}}</td>
-            <td>{{usuario.tipousuario}}</td>
+            <td>{{usuario.tipoUsuario.nombre}}</td>
             <td>
                 <a href="#" class="btn btn-info" ng-click="vm.update(usuario.id)">
                     <i class="glyphicon glyphicon-edit"></i>

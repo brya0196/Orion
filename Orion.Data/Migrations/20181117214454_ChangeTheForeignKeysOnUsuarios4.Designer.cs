@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Orion.Data;
@@ -9,9 +10,10 @@ using Orion.Data;
 namespace Orion.Data.Migrations
 {
     [DbContext(typeof(OrionDbContext))]
-    partial class OrionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181117214454_ChangeTheForeignKeysOnUsuarios4")]
+    partial class ChangeTheForeignKeysOnUsuarios4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -59,6 +61,8 @@ namespace Orion.Data.Migrations
                     b.Property<string>("Apellido");
 
                     b.Property<string>("Email");
+
+                    b.Property<int?>("IdTipoUsuario");
 
                     b.Property<string>("Nombre");
 

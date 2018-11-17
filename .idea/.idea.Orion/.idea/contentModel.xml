@@ -26,6 +26,22 @@
         <e p="Migrations" t="Include">
           <e p="20181111221518_InitialMigration.cs" t="Include" />
           <e p="20181111221518_InitialMigration.Designer.cs" t="Include" />
+          <e p="20181117200925_AddedEmailToUsuariosData.cs" t="Include" />
+          <e p="20181117200925_AddedEmailToUsuariosData.Designer.cs" t="Include" />
+          <e p="20181117201439_ChangeCotnraseñaToPassword.cs" t="Include" />
+          <e p="20181117201439_ChangeCotnraseñaToPassword.Designer.cs" t="Include" />
+          <e p="20181117213149_ChangeTheForeignKey.cs" t="Include" />
+          <e p="20181117213149_ChangeTheForeignKey.Designer.cs" t="Include" />
+          <e p="20181117213605_ChangeTheForeignKeysOnUsuarios.cs" t="Include" />
+          <e p="20181117213605_ChangeTheForeignKeysOnUsuarios.Designer.cs" t="Include" />
+          <e p="20181117213726_ChangeTheForeignKeysOnUsuarios2.cs" t="Include" />
+          <e p="20181117213726_ChangeTheForeignKeysOnUsuarios2.Designer.cs" t="Include" />
+          <e p="20181117213919_ChangeTheForeignKeysOnUsuarios3.cs" t="Include" />
+          <e p="20181117213919_ChangeTheForeignKeysOnUsuarios3.Designer.cs" t="Include" />
+          <e p="20181117214454_ChangeTheForeignKeysOnUsuarios4.cs" t="Include" />
+          <e p="20181117214454_ChangeTheForeignKeysOnUsuarios4.Designer.cs" t="Include" />
+          <e p="20181117214540_ChangeTheForeignKeysOnUsuarios5.cs" t="Include" />
+          <e p="20181117214540_ChangeTheForeignKeysOnUsuarios5.Designer.cs" t="Include" />
           <e p="OrionDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -93,8 +109,10 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
             <e p="AddTiposUsuarios.cshtml" t="Include" />
+            <e p="AddUsuarios.cshtml" t="Include" />
             <e p="TiposUsuarios.cshtml" t="Include" />
             <e p="UpdateTiposUsuarios.cshtml" t="Include" />
+            <e p="UpdateUsuarios.cshtml" t="Include" />
             <e p="Usuarios.cshtml" t="Include" />
           </e>
           <e p="shared" t="Include">
@@ -114,6 +132,7 @@
                 <e p="UpdateTiposUsuarioController.js" t="Include" />
               </e>
               <e p="Usuarios" t="Include">
+                <e p="AddUsuariosController.js" t="Include" />
                 <e p="GetAllController.js" t="Include" />
               </e>
             </e>

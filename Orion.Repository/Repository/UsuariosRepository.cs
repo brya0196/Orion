@@ -35,8 +35,9 @@ namespace Orion.Repository.Repository
 
             tipoUsuario.Nombre = usuario.Nombre;
             tipoUsuario.Apellido = usuario.Apellido;
-            tipoUsuario.Contraseña = usuario.Contraseña;
-            tipoUsuario.TipoUsuario = usuario.TipoUsuario;
+            tipoUsuario.Email = usuario.Email;
+            tipoUsuario.Password = usuario.Password;
+            tipoUsuario.TipoUsuarioId = usuario.TipoUsuarioId;
 
             _dbContext.SaveChanges();
         }

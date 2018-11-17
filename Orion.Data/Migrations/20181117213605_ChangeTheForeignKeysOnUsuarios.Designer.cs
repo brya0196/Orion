@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Orion.Data;
@@ -9,9 +10,10 @@ using Orion.Data;
 namespace Orion.Data.Migrations
 {
     [DbContext(typeof(OrionDbContext))]
-    partial class OrionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181117213605_ChangeTheForeignKeysOnUsuarios")]
+    partial class ChangeTheForeignKeysOnUsuarios
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,11 +66,11 @@ namespace Orion.Data.Migrations
 
                     b.Property<string>("Password");
 
-                    b.Property<int?>("TipoUsuarioId");
+                    b.Property<int?>("TiposUsuarioId");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TipoUsuarioId");
+                    b.HasIndex("TiposUsuarioId");
 
                     b.ToTable("Usuarios");
                 });
@@ -97,9 +99,9 @@ namespace Orion.Data.Migrations
 
             modelBuilder.Entity("Orion.Data.Models.Usuario", b =>
                 {
-                    b.HasOne("Orion.Data.Models.TiposUsuario", "TipoUsuario")
+                    b.HasOne("Orion.Data.Models.TiposUsuario", "TiposUsuario")
                         .WithMany()
-                        .HasForeignKey("TipoUsuarioId");
+                        .HasForeignKey("TiposUsuarioId");
                 });
 
             modelBuilder.Entity("Orion.Data.Models.Venta", b =>

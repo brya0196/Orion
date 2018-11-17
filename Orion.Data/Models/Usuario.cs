@@ -1,11 +1,17 @@
+using System;
+using System.Collections.Generic;
+
 namespace Orion.Data.Models
 {
-    public class Usuario
+    public partial class Usuario
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public string Contraseña { get; set; }
-        public TiposUsuario TipoUsuario { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public Nullable<int> TipoUsuarioId { get; set; }
+        
+        public virtual TiposUsuario TipoUsuario { get; set; }
     }
 }
