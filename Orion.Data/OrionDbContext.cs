@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 using Orion.Data.Models;
 
 namespace Orion.Data
@@ -6,16 +8,15 @@ namespace Orion.Data
     public class OrionDbContext : DbContext
     {
         public OrionDbContext(DbContextOptions<OrionDbContext> options)
-        : base(options)
+            : base(options)
         {
-            
+
         }
-        
+
         public DbSet<TiposUsuario> TiposUsuarios { get; set; }
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Venta> Ventas { get; set; }
-        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

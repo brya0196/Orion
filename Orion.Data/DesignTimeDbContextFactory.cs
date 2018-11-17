@@ -6,18 +6,11 @@ namespace Orion.Data
 {
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<OrionDbContext>
     {
-        public DesignTimeDbContextFactory(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-        
-        public IConfiguration Configuration { get; }
-        
         public OrionDbContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<OrionDbContext>();
 
-            builder.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"));
+            builder.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=password;Database=Orion;");
 
             return new OrionDbContext(builder.Options);
         }

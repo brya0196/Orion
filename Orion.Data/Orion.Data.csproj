@@ -11,6 +11,12 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
         <Version>2.1.4</Version>
       </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite">
+        <Version>2.1.4</Version>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core">
+        <Version>2.1.4</Version>
+      </PackageReference>
       <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
         <Version>2.1.4</Version>
       </PackageReference>

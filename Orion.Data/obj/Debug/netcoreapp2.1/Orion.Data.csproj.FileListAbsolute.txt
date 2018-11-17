@@ -9,3 +9,14 @@
 /Users/bastacio/Development/Dotnet/Orion/Orion.Data/obj/Debug/netcoreapp2.1/Orion.Data.pdb
 /Users/bastacio/Development/Dotnet/Orion/Orion.Data/bin/Debug/netcoreapp2.1/Orion.Data.runtimeconfig.json
 /Users/bastacio/Development/Dotnet/Orion/Orion.Data/bin/Debug/netcoreapp2.1/Orion.Data.runtimeconfig.dev.json
+E:\Development\Dotnet\Orion\Orion.Data\bin\Debug\netcoreapp2.1\Orion.Data.deps.json
+E:\Development\Dotnet\Orion\Orion.Data\bin\Debug\netcoreapp2.1\Orion.Data.runtimeconfig.json
+E:\Development\Dotnet\Orion\Orion.Data\bin\Debug\netcoreapp2.1\Orion.Data.runtimeconfig.dev.json
+E:\Development\Dotnet\Orion\Orion.Data\bin\Debug\netcoreapp2.1\Orion.Data.dll
+E:\Development\Dotnet\Orion\Orion.Data\bin\Debug\netcoreapp2.1\Orion.Data.pdb
+E:\Development\Dotnet\Orion\Orion.Data\obj\Debug\netcoreapp2.1\Orion.Data.csprojAssemblyReference.cache
+E:\Development\Dotnet\Orion\Orion.Data\obj\Debug\netcoreapp2.1\Orion.Data.csproj.CoreCompileInputs.cache
+E:\Development\Dotnet\Orion\Orion.Data\obj\Debug\netcoreapp2.1\Orion.Data.AssemblyInfoInputs.cache
+E:\Development\Dotnet\Orion\Orion.Data\obj\Debug\netcoreapp2.1\Orion.Data.AssemblyInfo.cs
+E:\Development\Dotnet\Orion\Orion.Data\obj\Debug\netcoreapp2.1\Orion.Data.dll
+E:\Development\Dotnet\Orion\Orion.Data\obj\Debug\netcoreapp2.1\Orion.Data.pdb

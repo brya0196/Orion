@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/bastacio/Development/Dotnet/Orion/Orion.Data/Orion.Data.csproj",
+    "projectUniqueName": "E:\\Development\\Dotnet\\Orion\\Orion.Data\\Orion.Data.csproj",
     "projectName": "Orion.Data",
-    "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Data/Orion.Data.csproj",
-    "outputPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Data/obj/",
+    "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Data\\Orion.Data.csproj",
+    "outputPath": "E:\\Development\\Dotnet\\Orion\\Orion.Data\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
@@ -31,6 +31,14 @@
           "version": "[2.1.4, )"
         },
         "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[2.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[2.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite.Core": {
           "target": "Package",
           "version": "[2.1.4, )"
         },
