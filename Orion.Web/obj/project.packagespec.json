@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/bastacio/Development/Dotnet/Orion/Orion.Web/Orion.Web.csproj",
+    "projectUniqueName": "E:\\Development\\Dotnet\\Orion\\Orion.Web\\Orion.Web.csproj",
     "projectName": "Orion.Web",
-    "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Web/Orion.Web.csproj",
-    "outputPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Web/obj/",
+    "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Web\\Orion.Web.csproj",
+    "outputPath": "E:\\Development\\Dotnet\\Orion\\Orion.Web\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
@@ -15,14 +15,14 @@
     "frameworks": {
       "netcoreapp2.1": {
         "projectReferences": {
-          "/Users/bastacio/Development/Dotnet/Orion/Orion.Business/Orion.Business.csproj": {
-            "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Business/Orion.Business.csproj"
+          "E:\\Development\\Dotnet\\Orion\\Orion.Business\\Orion.Business.csproj": {
+            "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Business\\Orion.Business.csproj"
           },
-          "/Users/bastacio/Development/Dotnet/Orion/Orion.Data/Orion.Data.csproj": {
-            "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Data/Orion.Data.csproj"
+          "E:\\Development\\Dotnet\\Orion\\Orion.Data\\Orion.Data.csproj": {
+            "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Data\\Orion.Data.csproj"
           },
-          "/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/Orion.Repository.csproj": {
-            "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/Orion.Repository.csproj"
+          "E:\\Development\\Dotnet\\Orion\\Orion.Repository\\Orion.Repository.csproj": {
+            "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Repository\\Orion.Repository.csproj"
           }
         }
       }
@@ -47,6 +47,14 @@
           "version": "[2.1.4, )"
         },
         "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[2.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[2.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite.Core": {
           "target": "Package",
           "version": "[2.1.4, )"
         },

@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/Orion.Repository.csproj",
+    "projectUniqueName": "E:\\Development\\Dotnet\\Orion\\Orion.Repository\\Orion.Repository.csproj",
     "projectName": "Orion.Repository",
-    "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/Orion.Repository.csproj",
-    "outputPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Repository/obj/",
+    "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Repository\\Orion.Repository.csproj",
+    "outputPath": "E:\\Development\\Dotnet\\Orion\\Orion.Repository\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
@@ -15,11 +15,11 @@
     "frameworks": {
       "netcoreapp2.1": {
         "projectReferences": {
-          "/Users/bastacio/Development/Dotnet/Orion/Orion.Business/Orion.Business.csproj": {
-            "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Business/Orion.Business.csproj"
+          "E:\\Development\\Dotnet\\Orion\\Orion.Business\\Orion.Business.csproj": {
+            "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Business\\Orion.Business.csproj"
           },
-          "/Users/bastacio/Development/Dotnet/Orion/Orion.Data/Orion.Data.csproj": {
-            "projectPath": "/Users/bastacio/Development/Dotnet/Orion/Orion.Data/Orion.Data.csproj"
+          "E:\\Development\\Dotnet\\Orion\\Orion.Data\\Orion.Data.csproj": {
+            "projectPath": "E:\\Development\\Dotnet\\Orion\\Orion.Data\\Orion.Data.csproj"
           }
         }
       }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\ryan0\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ryan0\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Orion.670389090.00" t="ExcludeRecursive" />
+    <e p="E:\Development\Dotnet\Orion" t="IncludeFlat">
       <e p="Orion.Business" t="IncludeRecursive">
         <e p="Bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
@@ -93,6 +95,7 @@
             <e p="AddTiposUsuarios.cshtml" t="Include" />
             <e p="TiposUsuarios.cshtml" t="Include" />
             <e p="UpdateTiposUsuarios.cshtml" t="Include" />
+            <e p="Usuarios.cshtml" t="Include" />
           </e>
           <e p="shared" t="Include">
             <e p="_CookieConsentPartial.cshtml" t="Include" />
@@ -110,15 +113,20 @@
                 <e p="GetAllController.js" t="Include" />
                 <e p="UpdateTiposUsuarioController.js" t="Include" />
               </e>
+              <e p="Usuarios" t="Include">
+                <e p="GetAllController.js" t="Include" />
+              </e>
             </e>
             <e p="directives" t="Include" />
             <e p="partials" t="Include" />
             <e p="repositories" t="Include">
               <e p="TiposUsuariosRepository.js" t="Include" />
+              <e p="UsuariosRepository.js" t="Include" />
             </e>
             <e p="services" t="Include">
               <e p="StoreService.js" t="Include" />
               <e p="TiposUsariosServices.js" t="Include" />
+              <e p="UsuariosService.js" t="Include" />
             </e>
           </e>
           <e p="css" t="Include">
@@ -197,7 +205,5 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Orion.-338357505.00" t="ExcludeRecursive" />
   </component>
 </project>

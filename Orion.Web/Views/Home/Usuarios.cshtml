@@ -1,0 +1,42 @@
+@{
+    
+}
+<div ng-controller="GetAllController as vm">
+    
+    <h2>Usuarios</h2>
+    
+    <a href="/Home/AddUsuarios" class="btn btn-success">
+        <i class="glyphicon glyphicon-plus"></i>
+    </a>
+    <table class="table table-responsive table-hover table-bordered">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Tipo Usuario</th>
+            <th>Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="usuario in vm.Usuarios">
+            <td>{{usuario.id}}</td>
+            <td>{{usuario.nombre}} {{usuario.apellido}}</td>
+            <td>{{usuario.tipousuario}}</td>
+            <td>
+                <a href="#" class="btn btn-info" ng-click="vm.update(usuario.id)">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+                <a href="#" class="btn btn-danger" ng-click="vm.delete(usuario)">
+                    <i class="glyphicon glyphicon-remove-sign"></i>
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+</div>
+
+<script src="~/angular/controllers/Usuarios/GetAllController.js"></script>
+<script src="~/angular/services/UsuariosService.js"></script>
+<script src="~/angular/services/StoreService.js"></script>
+<script src="~/angular/repositories/UsuariosRepository.js"></script>

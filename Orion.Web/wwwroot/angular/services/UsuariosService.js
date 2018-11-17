@@ -1,68 +1,68 @@
 (function(){
     "use strict";
-    
+
     const app = angular.module("app.orion");
-    
-    app.service("TiposUsuariosService", ["$http", "$q", "origin", TiposUsuariosService]);
-    
-    function TiposUsuariosService($http, $q, origin) {
-        
-        const getAllTiposUsuarios = () => {
+
+    app.service("UsuariosService", ["$http", "$q", "origin", UsuariosService]);
+
+    function UsuariosService($http, $q, origin) {
+
+        const getAllUsuarios = () => {
             let deferred = $q.defer();
-            
-            $http.get(origin + "/api/TiposUsuarios/GetAll")
+
+            $http.get(origin + "/api/Usuarios/GetAll")
                 .then(tiposUsuario => deferred.resolve(tiposUsuario.data))
                 .catch(err => deferred.reject(err));
-            
+
             return deferred.promise;
         };
 
-        const getByIdTipoUsuario = id => {
+        const getByIdUsuarios = id => {
             let deferred = $q.defer();
 
-            $http.get(origin + "/api/TiposUsuarios/GetById/" + id)
+            $http.get(origin + "/api/Usuarios/GetById/" + id)
                 .then(response => deferred.resolve(response.data))
                 .catch(err => deferred.reject(err));
 
             return deferred.promise;
         }
-        
-        const addTipoUsuario = tipoUsuario => {
+
+        const addUsuarios = usuario => {
             let deferred = $q.defer();
-            
-            $http.post(origin + "/api/TiposUsuarios/Add", tipoUsuario)
-                .then(response => deferred.resolve(response.data))
-                .catch(err => deferred.reject(err));   
-            
-            return deferred.promise;
-        }
-        
-        const deleteTipoUsuario = tipoUsuario => {
-            let deferred = $q.defer();
-            
-            $http.post(origin + "/api/TiposUsuarios/Delete", tipoUsuario)
+
+            $http.post(origin + "/api/Usuarios/Add", usuario)
                 .then(response => deferred.resolve(response.data))
                 .catch(err => deferred.reject(err));
-            
+
+            return deferred.promise;
+        }
+
+        const deleteUsuarios = usuario => {
+            let deferred = $q.defer();
+
+            $http.post(origin + "/api/Usuarios/Delete", usuario)
+                .then(response => deferred.resolve(response.data))
+                .catch(err => deferred.reject(err));
+
             return deferred.promise;
         };
 
-        const updateTipoUsuario = tipoUsuario => {
+        const updateUsuarios = usuario => {
             let deferred = $q.defer();
 
-            $http.post(origin + "/api/TiposUsuarios/Update", tipoUsuario)
+            $http.post(origin + "/api/Usuarios/Update", usuario)
                 .then(response => deferred.resolve(response.data))
                 .catch(err => deferred.reject(err));
 
             return deferred.promise;
         }
-        
+
         return {
-            getAll: getAllTiposUsuarios, 
-            getById: getByIdTipoUsuario,
-            add: addTipoUsuario,
-            delete: deleteTipoUsuario,
-            update: updateTipoUsuario
+            getAll: getAllUsuarios,
+            getById: getByIdUsuarios,
+            add: addUsuarios,
+            delete: deleteUsuarios,
+            update: updateUsuarios
         };
     }
 })();

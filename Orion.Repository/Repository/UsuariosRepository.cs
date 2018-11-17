@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Orion.Business;
@@ -46,7 +47,7 @@ namespace Orion.Repository.Repository
             if (entry.State == EntityState.Detached)
             {
                 var user = _dbContext.Usuarios.Find(usuario.Id);
-                _dbContext.TiposUsuarios.Remove(user);
+                _dbContext.Usuarios.Remove(user);
             }
             else
             {
@@ -54,9 +55,11 @@ namespace Orion.Repository.Repository
             }
         }
 
-        public IEnumerable GetAll()
+        public IEnumerable<Usuario> GetAll()
         {
-            return _dbContext.Usuarios.ToList();
+            return _dbContext.Usuarios
+                    .Include(u => u.TipoUsuario)
+                    .ToList();
         }
 
         public Usuario GetById(int id)
