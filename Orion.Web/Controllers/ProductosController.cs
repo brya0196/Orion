@@ -104,7 +104,7 @@ namespace Orion.Web.Controllers
         }
         
         [HttpPost]
-        [Route("/api/Usuarios/Update")]
+        [Route("/api/Productos/Update")]
         public IActionResult Update([FromBody]Producto producto)
         {
             try

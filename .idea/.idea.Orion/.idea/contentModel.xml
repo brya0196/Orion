@@ -136,6 +136,7 @@
               <e p="Productos" t="Include">
                 <e p="AddProductosController.js" t="Include" />
                 <e p="GridProductosController.js" t="Include" />
+                <e p="UpdateProductosController.js" t="Include" />
               </e>
               <e p="TiposUsuarios" t="Include">
                 <e p="AddTiposUsuariosController.js" t="Include" />

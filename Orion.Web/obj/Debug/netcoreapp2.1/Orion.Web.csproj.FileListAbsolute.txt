@@ -78,3 +78,4 @@ E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\U
 E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\UpdateUsuariosPassword.g.cshtml.cs
 E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Productos.g.cshtml.cs
 E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\AddProductos.g.cshtml.cs
+E:\Development\Dotnet\Orion\Orion.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\UpdateProductos.g.cshtml.cs

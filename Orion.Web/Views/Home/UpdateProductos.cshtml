@@ -1,4 +1,4 @@
-<form ng-controller="AddProductosController as vm" name="FormProductos">
+<form ng-controller="UpdateProductosController as vm" name="FormProductos">
     <h2>Productos</h2>
 
     <div class="row">
@@ -22,10 +22,11 @@
 
     <div class="row">
         <a href="#" class="btn btn-danger" ng-click="vm.cancel()">Cancelar</a>
-        <button class="btn btn-success" ng-disabled="FormProductos.$invalid" ng-click="vm.addTipoUsuario()">Send</button>
+        <button class="btn btn-success" ng-disabled="FormProductos.$invalid" ng-click="vm.updateProducto()">Send</button>
     </div>
 </form>
 
-<script src="~/angular/controllers/Productos/AddProductosController.js"></script>
+<script src="~/angular/services/StoreService.js"></script>
+<script src="~/angular/controllers/Productos/UpdateProductosController.js"></script>
 <script src="~/angular/services/ProductosService.js"></script>
 <script src="~/angular/repositories/ProductosRepository.js"></script>

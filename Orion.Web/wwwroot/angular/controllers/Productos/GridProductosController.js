@@ -23,8 +23,8 @@
         };
 
         vm.update = id => {
-            StoreService.Set("updateUsuario", id);
-            window.location.href = "/Home/UpdateUsuarios";
+            StoreService.Set("updateProducto", id);
+            window.location.href = "/Home/UpdateProductos";
         };
 
         vm.password = id => {
