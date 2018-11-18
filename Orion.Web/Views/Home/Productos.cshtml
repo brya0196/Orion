@@ -1,0 +1,44 @@
+@{
+    
+}
+<div ng-controller="GridProductosController as vm">
+    
+    <h2>Productos</h2>
+    
+    <a href="/Home/AddProductos" class="btn btn-success">
+        <i class="glyphicon glyphicon-plus"></i>
+    </a>
+    <table class="table table-responsive table-hover table-bordered">
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Fecha de Vencimiento</th>
+            <th>Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="producto in vm.Productos">
+            <td>{{producto.codigoProducto}} - {{producto.nombre}}</td>
+            <td>{{producto.precio}}</td>
+            <td>{{producto.cantidadStock}}</td>
+            <td>{{producto.fechaVencimiento | date: 'dd/MM/yyyy'}}</td>
+            <td>
+                <a href="#" class="btn btn-info" ng-click="vm.update(producto.id)">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+                <a href="#" class="btn btn-danger" ng-click="vm.delete(producto)">
+                    <i class="glyphicon glyphicon-remove-sign"></i>
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+</div>
+
+<script src="~/angular/controllers/Productos/GridProductosController.js"></script>
+<script src="~/angular/services/ProductosService.js"></script>
+<script src="~/angular/services/StoreService.js"></script>
+<script src="~/angular/repositories/ProductosRepository.js"></script>

@@ -3,9 +3,9 @@
     
     const app = angular.module("app.orion");
     
-    app.controller("GetAllController", ["$scope", "StoreService", "TiposUsuariosRepository", GetAllController]);
+    app.controller("GridTiposUsuariosController", ["$scope", "StoreService", "TiposUsuariosRepository", GridTiposUsuariosController]);
     
-    function GetAllController($scope, StoreService, TiposUsuariosRepository) {
+    function GridTiposUsuariosController($scope, StoreService, TiposUsuariosRepository) {
         
         var vm = this;
         

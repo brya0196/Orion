@@ -7,5 +7,6 @@ namespace Orion.Business
         int Complete();
         ITiposUsuario TiposUsuarios { get; }
         IUsuario Usuarios { get; }
+        IProductos Productos { get; }
     }
 }

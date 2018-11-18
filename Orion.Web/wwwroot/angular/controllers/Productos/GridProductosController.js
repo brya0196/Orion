@@ -3,20 +3,20 @@
 
     const app = angular.module("app.orion");
 
-    app.controller("GetAllController", ["$scope", "StoreService", "UsuariosRepository", GetAllController]);
+    app.controller("GridProductosController", ["$scope", "StoreService", "ProductosRepository", GridProductosController]);
 
-    function GetAllController($scope, StoreService, UsuariosRepository) {
+    function GridProductosController($scope, StoreService, ProductosRepository) {
 
         var vm = this;
 
-        vm.Usuarios = [];
+        vm.Productos = [];
         populateGrid();
 
         vm.delete = id => {
-            UsuariosRepository.delete(id)
+            ProductosRepository.delete(id)
                 .then(response => {
                     alert("Eliminado");
-                    vm.Usuarios = [];
+                    vm.Productos = [];
                     populateGrid();
                 })
                 .catch(err => console.log(err));
@@ -33,8 +33,8 @@
         };
 
         function populateGrid() {
-            UsuariosRepository.getAll()
-                .then(usuario => vm.Usuarios = usuario.value)
+            ProductosRepository.getAll()
+                .then(productos => vm.Productos = productos.value)
                 .catch(err => console.log(err));
         }
     }

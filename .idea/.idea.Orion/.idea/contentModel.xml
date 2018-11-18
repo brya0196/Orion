@@ -87,6 +87,7 @@
         <e p="Bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
+          <e p="ProductosController.cs" t="Include" />
           <e p="TiposUsuariosController.cs" t="Include" />
           <e p="UsuariosController.cs" t="Include" />
         </e>
@@ -110,9 +111,12 @@
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
+            <e p="AddProductos.cshtml" t="Include" />
             <e p="AddTiposUsuarios.cshtml" t="Include" />
             <e p="AddUsuarios.cshtml" t="Include" />
+            <e p="Productos.cshtml" t="Include" />
             <e p="TiposUsuarios.cshtml" t="Include" />
+            <e p="UpdateProductos.cshtml" t="Include" />
             <e p="UpdateTiposUsuarios.cshtml" t="Include" />
             <e p="UpdateUsuarios.cshtml" t="Include" />
             <e p="UpdateUsuariosPassword.cshtml" t="Include" />
@@ -129,14 +133,18 @@
           <e p="angular" t="Include">
             <e p="app.js" t="Include" />
             <e p="Controllers" t="Include">
+              <e p="Productos" t="Include">
+                <e p="AddProductosController.js" t="Include" />
+                <e p="GridProductosController.js" t="Include" />
+              </e>
               <e p="TiposUsuarios" t="Include">
                 <e p="AddTiposUsuariosController.js" t="Include" />
-                <e p="GetAllController.js" t="Include" />
+                <e p="GridTiposUsuariosController.js" t="Include" />
                 <e p="UpdateTiposUsuarioController.js" t="Include" />
               </e>
               <e p="Usuarios" t="Include">
                 <e p="AddUsuariosController.js" t="Include" />
-                <e p="GetAllController.js" t="Include" />
+                <e p="GridUsuariosController.js" t="Include" />
                 <e p="UpdateUsuarioPasswordController.js" t="Include" />
                 <e p="UpdateUsuariosController.js" t="Include" />
               </e>
@@ -144,10 +152,12 @@
             <e p="directives" t="Include" />
             <e p="partials" t="Include" />
             <e p="repositories" t="Include">
+              <e p="ProductosRepository.js" t="Include" />
               <e p="TiposUsuariosRepository.js" t="Include" />
               <e p="UsuariosRepository.js" t="Include" />
             </e>
             <e p="services" t="Include">
+              <e p="ProductosService.js" t="Include" />
               <e p="StoreService.js" t="Include" />
               <e p="TiposUsariosServices.js" t="Include" />
               <e p="UsuariosService.js" t="Include" />

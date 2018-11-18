@@ -49,6 +49,16 @@ namespace Orion.Web.Controllers
         {
             return View();
         }
+        
+        public IActionResult Productos()
+        {
+            return View();
+        }
+        
+        public IActionResult AddProductos()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
