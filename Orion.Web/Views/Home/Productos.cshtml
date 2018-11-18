@@ -11,6 +11,7 @@
     <table class="table table-responsive table-hover table-bordered">
         <thead>
         <tr>
+            <th>Codigo del Producto</th>
             <th>Nombre</th>
             <th>Precio</th>
             <th>Stock</th>
@@ -20,7 +21,8 @@
         </thead>
         <tbody>
         <tr ng-repeat="producto in vm.Productos">
-            <td>{{producto.codigoProducto}} - {{producto.nombre}}</td>
+            <td>{{producto.codigoProducto}}</td>
+            <td>{{producto.nombre}}</td>
             <td>{{producto.precio}}</td>
             <td>{{producto.cantidadStock}}</td>
             <td>{{producto.fechaVencimiento | date: 'dd/MM/yyyy'}}</td>
