@@ -1,0 +1,12 @@
+E:\Development\Dotnet\Orion\Orion.Business\bin\Release\netcoreapp2.1\Orion.Business.deps.json
+E:\Development\Dotnet\Orion\Orion.Business\bin\Release\netcoreapp2.1\Orion.Business.dll
+E:\Development\Dotnet\Orion\Orion.Business\bin\Release\netcoreapp2.1\Orion.Business.pdb
+E:\Development\Dotnet\Orion\Orion.Business\bin\Release\netcoreapp2.1\Orion.Data.dll
+E:\Development\Dotnet\Orion\Orion.Business\bin\Release\netcoreapp2.1\Orion.Data.pdb
+E:\Development\Dotnet\Orion\Orion.Business\obj\Release\netcoreapp2.1\Orion.Business.csprojAssemblyReference.cache
+E:\Development\Dotnet\Orion\Orion.Business\obj\Release\netcoreapp2.1\Orion.Business.csproj.CoreCompileInputs.cache
+E:\Development\Dotnet\Orion\Orion.Business\obj\Release\netcoreapp2.1\Orion.Business.AssemblyInfoInputs.cache
+E:\Development\Dotnet\Orion\Orion.Business\obj\Release\netcoreapp2.1\Orion.Business.AssemblyInfo.cs
+E:\Development\Dotnet\Orion\Orion.Business\obj\Release\netcoreapp2.1\Orion.Business.csproj.CopyComplete
+E:\Development\Dotnet\Orion\Orion.Business\obj\Release\netcoreapp2.1\Orion.Business.dll
+E:\Development\Dotnet\Orion\Orion.Business\obj\Release\netcoreapp2.1\Orion.Business.pdb
