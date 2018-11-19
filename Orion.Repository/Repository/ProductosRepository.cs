@@ -21,8 +21,9 @@ namespace Orion.Repository.Repository
             var entry = _dbContext.Entry(producto);
             if (entry.State == EntityState.Detached)
             {
-                var ultimoProducto = _dbContext.Productos.Last();
-                producto.CodigoProducto = ultimoProducto?.CodigoProducto + 1 ?? 1;
+                var codigoProducto = (_dbContext.Productos.ToList().Count > 0) ? _dbContext.Productos.Last().CodigoProducto + 1 : 1;
+                    
+                producto.CodigoProducto = codigoProducto;
                 _dbContext.Productos.Add(producto);
             }
             else
