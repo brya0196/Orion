@@ -78,15 +78,13 @@ namespace Orion.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("CompradorId");
+                    b.Property<string>("Comprador");
 
-                    b.Property<int?>("ProductoId");
+                    b.Property<int>("ProductoId");
 
-                    b.Property<int?>("VendedorId");
+                    b.Property<int>("VendedorId");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CompradorId");
 
                     b.HasIndex("ProductoId");
 
@@ -104,17 +102,15 @@ namespace Orion.Data.Migrations
 
             modelBuilder.Entity("Orion.Data.Models.Venta", b =>
                 {
-                    b.HasOne("Orion.Data.Models.Usuario", "Comprador")
-                        .WithMany()
-                        .HasForeignKey("CompradorId");
-
                     b.HasOne("Orion.Data.Models.Producto", "Producto")
                         .WithMany()
-                        .HasForeignKey("ProductoId");
+                        .HasForeignKey("ProductoId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("Orion.Data.Models.Usuario", "Vendedor")
                         .WithMany()
-                        .HasForeignKey("VendedorId");
+                        .HasForeignKey("VendedorId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,43 @@
+@{
+    
+}
+<div ng-controller="GridVentasController as vm">
+    
+    <h2>Ventas</h2>
+    
+    <a href="/Home/AddVentas" class="btn btn-success">
+        <i class="glyphicon glyphicon-plus"></i>
+    </a>
+    <table class="table table-responsive table-hover table-bordered">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Producto</th>
+            <th>Vendedor</th>
+            <th>Comprador</th>
+            <th>Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="venta in vm.Ventas">
+            <td>{{venta.id}}</td>
+            <td>{{venta.vendedor.nombre}} {{venta.vendedor.apellido}}</td>
+            <td>{{venta.producto.codigoProducto}} - {{venta.producto.nombre}}</td>
+            <td>{{venta.comprador }}</td>
+            <td>
+                <a href="#" class="btn btn-info" ng-click="vm.factura(venta)">
+                    <i class="glyphicon glyphicon-print"></i>
+                </a>
+            </td>
+
+            
+        </tr>
+        </tbody>
+    </table>
+    
+</div>
+
+<script src="~/angular/controllers/Ventas/GridVentasController.js"></script>
+<script src="~/angular/services/VentasServices.js"></script>
+<script src="~/angular/services/StoreService.js"></script>
+<script src="~/angular/repositories/VentasRepository.js"></script>

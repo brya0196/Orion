@@ -8,5 +8,6 @@ namespace Orion.Business
         ITiposUsuario TiposUsuarios { get; }
         IUsuario Usuarios { get; }
         IProductos Productos { get; }
+        IVentas Ventas { get; }
     }
 }

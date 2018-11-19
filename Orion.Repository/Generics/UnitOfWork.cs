@@ -16,11 +16,13 @@ namespace Orion.Repository.Generics
             TiposUsuarios = new TiposUsuarioRepository(_dbContext);
             Usuarios = new UsuariosRepository(_dbContext);
             Productos = new ProductosRepository(_dbContext);
+            Ventas = new VentasRepository(_dbContext);
         }
         
         public ITiposUsuario TiposUsuarios { get; private set; }
         public IUsuario Usuarios { get; private set; }
         public IProductos Productos { get; }
+        public IVentas Ventas { get; }
 
         public void Dispose()
         {

@@ -12,7 +12,7 @@ namespace Orion.Web.Controllers
     {
         public IActionResult Index()
         {
-            return View("TiposUsuarios");
+            return View("Productos");
         }
 
         public IActionResult TiposUsuarios()
@@ -64,7 +64,22 @@ namespace Orion.Web.Controllers
         {
             return View();
         }
+        
+        public IActionResult Ventas()
+        {
+            return View();
+        }
 
+        public IActionResult AddVentas()
+        {
+            return View();
+        }
+        
+        public IActionResult Factura()
+        {
+            return View();
+        }
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

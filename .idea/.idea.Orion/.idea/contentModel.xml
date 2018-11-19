@@ -11,6 +11,7 @@
           <e p="ITiposUsuario.cs" t="Include" />
           <e p="IUnitOfWork.cs" t="Include" />
           <e p="IUsuarios.cs" t="Include" />
+          <e p="IVentas.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -43,6 +44,10 @@
           <e p="20181117214454_ChangeTheForeignKeysOnUsuarios4.Designer.cs" t="Include" />
           <e p="20181117214540_ChangeTheForeignKeysOnUsuarios5.cs" t="Include" />
           <e p="20181117214540_ChangeTheForeignKeysOnUsuarios5.Designer.cs" t="Include" />
+          <e p="20181118234816_fixedErrorOnVentasModel.cs" t="Include" />
+          <e p="20181118234816_fixedErrorOnVentasModel.Designer.cs" t="Include" />
+          <e p="20181119002107_AddedCompradorToVenta.cs" t="Include" />
+          <e p="20181119002107_AddedCompradorToVenta.Designer.cs" t="Include" />
           <e p="OrionDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -78,6 +83,7 @@
           <e p="ProductosRepository.cs" t="Include" />
           <e p="TiposUsuarioRepository.cs" t="Include" />
           <e p="UsuariosRepository.cs" t="Include" />
+          <e p="VentasRepository.cs" t="Include" />
         </e>
       </e>
       <e p="Orion.sln" t="IncludeFlat" />
@@ -90,6 +96,7 @@
           <e p="ProductosController.cs" t="Include" />
           <e p="TiposUsuariosController.cs" t="Include" />
           <e p="UsuariosController.cs" t="Include" />
+          <e p="VentasController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
@@ -114,6 +121,8 @@
             <e p="AddProductos.cshtml" t="Include" />
             <e p="AddTiposUsuarios.cshtml" t="Include" />
             <e p="AddUsuarios.cshtml" t="Include" />
+            <e p="AddVentas.cshtml" t="Include" />
+            <e p="Factura.cshtml" t="Include" />
             <e p="Productos.cshtml" t="Include" />
             <e p="TiposUsuarios.cshtml" t="Include" />
             <e p="UpdateProductos.cshtml" t="Include" />
@@ -121,6 +130,7 @@
             <e p="UpdateUsuarios.cshtml" t="Include" />
             <e p="UpdateUsuariosPassword.cshtml" t="Include" />
             <e p="Usuarios.cshtml" t="Include" />
+            <e p="Ventas.cshtml" t="Include" />
           </e>
           <e p="shared" t="Include">
             <e p="_CookieConsentPartial.cshtml" t="Include" />
@@ -149,6 +159,11 @@
                 <e p="UpdateUsuarioPasswordController.js" t="Include" />
                 <e p="UpdateUsuariosController.js" t="Include" />
               </e>
+              <e p="Ventas" t="Include">
+                <e p="AddVentasController.js" t="Include" />
+                <e p="FacturaController.js" t="Include" />
+                <e p="GridVentasController.js" t="Include" />
+              </e>
             </e>
             <e p="directives" t="Include" />
             <e p="partials" t="Include" />
@@ -156,12 +171,14 @@
               <e p="ProductosRepository.js" t="Include" />
               <e p="TiposUsuariosRepository.js" t="Include" />
               <e p="UsuariosRepository.js" t="Include" />
+              <e p="VentasRepository.js" t="Include" />
             </e>
             <e p="services" t="Include">
               <e p="ProductosService.js" t="Include" />
               <e p="StoreService.js" t="Include" />
               <e p="TiposUsariosServices.js" t="Include" />
               <e p="UsuariosService.js" t="Include" />
+              <e p="VentasServices.js" t="Include" />
             </e>
           </e>
           <e p="css" t="Include">

@@ -1,0 +1,24 @@
+<div ng-controller="FacturaController as vm">
+    
+    <h2>Factura</h2>
+    
+    <div class="row text-center">
+        <div class="row">
+            <h1>{{ vm.Venta.comprador }}</h1>
+        </div>
+        
+        <div class="row">
+            <h3>{{ vm.Venta.vendedor.nombre }} {{ vm.Venta.vendedor.apellido }}</h3> 
+            <div class="text-muted">{{ vm.Venta.producto.codigoProducto }} - {{ vm.Venta.producto.nombre }}</div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <button class="btn btn-info" ng-click="vm.cancel()">Volver</button>
+    </div>
+</div>
+
+<script src="~/angular/services/StoreService.js"></script>
+<script src="~/angular/repositories/VentasRepository.js"></script>
+<script src="~/angular/services/VentasServices.js"></script>
+<script src="~/angular/controllers/Ventas/FacturaController.js"></script>

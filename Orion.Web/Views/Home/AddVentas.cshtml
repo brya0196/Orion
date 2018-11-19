@@ -1,0 +1,47 @@
+@{
+    
+}
+
+<form ng-controller="AddVentasController as vm" name="FormVentas">
+    <h2>Ventas</h2>
+
+    <div class="row">
+        <div class="form-group col-sm-4">
+            <label>Comprador</label>
+            <input type="text" class="form-control" ng-model="Venta.Comprador" name="nombre" required />
+        </div>
+    </div>
+    
+    <div class="row">
+        
+        <div class="form-group col-sm-4">
+            <label>Productos</label>
+            <select class="form-control" name="producto" ng-model="Venta.ProductoId" required>
+                <option value="">Seleccione</option>
+                <option ng-repeat="producto in vm.Productos" ng-if="producto.cantidadStock > 0" value="{{ producto.id }}">{{ producto.codigoProducto }} {{ producto.nombre }}</option>
+            </select>
+        </div>
+        
+        <div class="form-group col-sm-4">
+            <label>Vendedor</label>
+            <select class="form-control" name="vendedor" ng-model="Venta.VendedorId" required>
+                <option value="">Seleccione</option>
+                <option ng-repeat="vendedor in vm.Vendedores" value="{{ vendedor.id }}">{{ vendedor.nombre }} {{ vendedor.apellido }}</option>
+            </select>
+        </div>
+    </div>
+    
+
+    <div class="row">
+        <a href="#" class="btn btn-danger" ng-click="vm.cancel()">Cancelar</a>
+        <button class="btn btn-success" ng-disabled="FormVentas.$invalid" ng-click="vm.addVentas()">Send</button>
+    </div>
+</form>
+
+<script src="~/angular/services/VentasServices.js"></script>
+<script src="~/angular/services/UsuariosService.js"></script>
+<script src="~/angular/services/ProductosService.js"></script>
+<script src="~/angular/repositories/VentasRepository.js"></script>
+<script src="~/angular/repositories/UsuariosRepository.js"></script>
+<script src="~/angular/repositories/ProductosRepository.js"></script>
+<script src="~/angular/controllers/Ventas/AddVentasController.js"></script>
